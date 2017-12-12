@@ -1,0 +1,20 @@
+.quizz-input {
+    display: inline-block;
+    height: 23px;
+    padding: 0px;
+}
+
+.quizz-form-valid {
+    border-color: #77d313;
+    background-color: #d7f69e;
+}
+
+.quizz-form-warning {
+    border-color: #6BB3C7;
+    background-color: #c1fcff;
+}
+
+.important-word {
+    color: #2cb5ff;
+    font-weight: bold;
+}

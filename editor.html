@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/nate-favicon.png">
+    <title>Nate</title>
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard-v=1.2.1.css" rel="stylesheet"/>
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet"/>
+    <link href="assets/css/nate.css" rel="stylesheet"/>
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+    <!--  Content Tools  -->
+    <link rel="stylesheet" type="text/css" href="assets/contentTools/content-tools.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/contentTools/display.css">
+
+</head>
+
+<body class="sidebar-mini">
+<div class="wrapper">
+    <div class="sidebar" data-background-color="brown" data-active-color="info">
+        <div class="logo">
+            <a href="#" class="simple-text logo-mini">
+                <img src="./assets/img/nate-favicon.png" style="width: 50px; margin-top: -10px; margin-left: -6px;"
+                     alt="">
+            </a>
+            <a href="#" class="simple-text logo-normal">
+                <h3 style="margin-left: 80px; margin-top: -8px;">NATE</h3>
+            </a>
+        </div>
+        <div class="sidebar-wrapper">
+
+            <div class="user">
+                <div class="photo">
+                    <img src="assets/img/face-profil.jpg">
+                </div>
+                <div class="info">
+                    <a data-toggle="collapse" href="#collapseExample" class="" aria-expanded="true">
+                        <span>
+                            Eric Amilha
+                            <b class="caret"></b>
+                        </span>
+                    </a>
+                    <div class="clearfix"></div>
+
+                    <div class="collapse in" id="collapseExample" aria-expanded="true" style="">
+                        <ul class="nav">
+                            <li>
+                                <a href="#profile">
+                                    <span class="sidebar-mini"><i class="ti-user"></i></span>
+                                    <span class="sidebar-normal">Profil</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#settings">
+                                    <span class="sidebar-mini"><i class="ti-stats-up"></i></span>
+                                    <span class="sidebar-normal">Stats</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#edit">
+                                    <span class="sidebar-mini"><i class="ti-panel"></i></span>
+                                    <span class="sidebar-normal">Paramètres</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="index.html">
+                        <i class="ti-clipboard"></i>
+                        <p>Fiches</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.html">
+                        <i class="ti-agenda"></i>
+                        <p>Agenda</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="editor.html">
+                        <i class="ti-pencil-alt"></i>
+                        <p>Editeur</p>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-minimize">
+                    <button id="minimizeSidebar" class="btn btn-fill btn-icon"><i class="ti-more-alt"></i></button>
+                </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html#Dashboard">
+                        Prise de note
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <form class="navbar-form navbar-left navbar-search-form" role="search">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                <input type="text" value="" class="form-control" placeholder="Rechercher...">
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content" style="background-color: white;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+
+                        <div data-editable data-name="main-content">
+                            <h1 class="text-center">L'innovation dans l'apprentissage</h1>
+                            <blockquote>
+                                Innover.
+                            </blockquote>
+                            <p>
+                                Le mot est sur toutes les lèvres.
+                                Mais l’ambition ne pourra jamais porter ses fruits sans une profonde réévaluation de notre système d’éducation face à une révolution technologique qui le transforme.
+                                Plus encore, l’obsolescence des compétences et la mutation des métiers nous forcent à multiplier nos connaissances, à les confronter…
+                            </p>
+                            <h3 id="editable-regions">Innovation et employabilité</h3>
+                            <p>Parmi les multiples choix existentiels de notre jeunesse, celui de l’orientation scolaire et professionnelle demeure l’un des plus importants.</p>
+                            <p>
+                                L’<b>obsolescence des compétences</b> et l’<b>évolution des métiers</b> sont inéluctables… et la file d’attente de Pôle Emploi beaucoup trop longue pour ne pas utiliser les moyens à notre disposition pour rester au top !
+                            </p>
+                            <p>
+                                Le développement des compétences est une nécessité pour progresser dans la pratique de son métier, se tenir informé des dernières tendances de son secteur d’activité et maintenir son employabilité. Les nouvelles modalités d’apprentissage sont nombreuses et permettent un accès immédiat, illimité, aux savoirs toujours plus nombreux pour répondre aux besoins de chacun.
+                            </p>
+                            <h3 id="drag-and-place-content">Innovation et apprentissage</h3>
+                            <p>
+                                Notre cerveau a cette capacité d’apprentissage à tout âge de notre vie : c’est la plasticité cérébrale. L’ère numérique ouvre cet univers des possibles.
+                            </p>
+                            <img alt="Click and hold the image to drag" class="align-right" height="300" src="assets/img/cours/emmanuelle-duez-citation.jpg" width="500">
+                            <p>
+                                L’école est un passage obligé. Chacun garde un souvenir différent de cette époque selon l’établissement fréquenté, le charisme de ses enseignants, les copains et la cloche qui sonne la fin de la récré, les heures de colle pour des raisons idiotes, les révisions et le fameux stress des examens… Et nous y voilà ! La condition pour passer d’une classe à l’autre ou obtenir un diplôme : ne pas faire d’erreur. L’erreur à l’école est un processus de sélection plutôt qu’un processus d’apprentissage. Une démarche qui s’oppose radicalement à la manière la plus naturelle d’apprendre.
+                            </p>
+                            <p>
+                                Cette contrainte de l’enseignement dans nos écoles est préjudiciable pour d’innombrables raisons – que chacun appréciera – mais surtout pour ces conséquences dans l’entreprise où l‘<b>innovation</b> représente un défi permanent.
+                            </p>
+                            <p>
+                                Cette course à l’innovation nous pousse à expérimenter de nouvelles solutions et tirer les conclusions en fonction des résultats obtenus. L’objectif est de raccourcir le temps d’innovation pour se donner le <b>droit à l’erreur</b>. Notre rapport à l’erreur change de paradigme dans ce contexte.
+                                To resize an image or video, click and hold in any corner then drag to adjust the size as required. While you're resizing, the dimensions will be displayed in the top right hand corner of the element.
+                            </p>
+                            <blockquote>
+                                Ce qui compte, c’est de tirer parti sans complexe de son erreur pour s’améliorer (<b>Fail Fast</b>).
+                            </blockquote>
+                            <img alt="Click and hold the image to drag" class="align-right" height="300" src="assets/img/cours/cedric-villani-conference-usi.jpg" width="500">
+                            <p>
+                                La <b>révolution</b> qui arrive dans l’enseignement sur cette question est l’<b>adaptive learning</b>. Cette technologie repose sur une pluralité de discipline tel que le big data, l’intelligence artificielle, les neurosciences et la psychologie cognitive. Elle offre un parcours personnalisé pour que chacun progresse à son rythme en fonction de ses capacités. Les avantages de cette méthode d’apprentissage sont une baisse insolente du taux d’abandon : 47 % selon une étude de l’Arizona State University et un gain au niveau du temps d’apprentissage selon une autre étude conduite par six universités publiques. Qu’il semble déjà lointain le temps des cours où l’enseignant ne pensait qu’à terminer absolument son programme au détriment des élèves en difficultés.
+                            </p>
+                            <p>
+                                Les mentalités sont amenées à évoluer dans les écoles et au sein même de l’entreprise. Nous avons l’obligation d’aller beaucoup plus loin… Nous sommes tenus de faire éloge de nos erreurs. Comme l’explique Stanislas Dehaene, neuroscientifique et professeur au Collège de France, l’apprentissage se déclenche lorsqu’un signal d’erreur montre que la prédiction générée par notre cerveau n’est pas parfaite.
+                            </p>
+                            <img alt="Click and hold the image to drag" class="align-right" height="300" src="assets/img/cours/jamie_anderson_usi_2015.jpg" width="500">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+
+<!--   Core JS Files. Extra: TouchPunch for touch library inside jquery-ui.min.js   -->
+<script src="assets/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="assets/js/perfect-scrollbar.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!--  Forms Validations Plugin -->
+<script src="assets/js/jquery.validate.min.js"></script>
+
+<!-- Promise Library for SweetAlert2 working on IE -->
+<script src="assets/js/es6-promise-auto.min.js"></script>
+
+<!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+<script src="assets/js/moment.min.js"></script>
+
+<!--  Date Time Picker Plugin is included in this js file -->
+<script src="assets/js/bootstrap-datetimepicker.js"></script>
+
+<!--  Select Picker Plugin -->
+<script src="assets/js/bootstrap-selectpicker.js"></script>
+
+<!--  Switch and Tags Input Plugins -->
+<script src="assets/js/bootstrap-switch-tags.js"></script>
+
+<!-- Circle Percentage-chart -->
+<script src="assets/js/jquery.easypiechart.min.js"></script>
+
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js"></script>
+
+<!-- Sweet Alert 2 plugin -->
+<script src="assets/js/sweetalert2.js"></script>
+
+<!-- Vector Map plugin -->
+<script src="assets/js/jquery-jvectormap.js"></script>
+
+<!-- Wizard Plugin    -->
+<script src="assets/js/jquery.bootstrap.wizard.min.js"></script>
+
+<!--  Bootstrap Table Plugin    -->
+<script src="assets/js/bootstrap-table.js"></script>
+
+<!--  Plugin for DataTables.net  -->
+<script src="assets/js/jquery.datatables.js"></script>
+
+<!--  Full Calendar Plugin    -->
+<script src="assets/js/fullcalendar.min.js"></script>
+
+<!-- Paper Dashboard PRO Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard-v=1.2.1.js"></script>
+
+<!--   Sharrre Library    -->
+<script src="assets/js/jquery.sharrre.js"></script>
+
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js"></script>
+
+<!-- Paper Dashboard PRO DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
+<!--  NATE -->
+<script src="assets/js/nate.js"></script>
+
+<script src="assets/contentTools/content-tools.min.js"></script>
+<script src="assets/contentTools/editor.js"></script>
+</html>
